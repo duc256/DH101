@@ -1,8 +1,9 @@
 # Week 1 – Reverse Engineering
 
 ## The Artifact
-Describe or embed your artifact here.
-Include images, links, or media as appropriate.
+Here is my Week 1 artifact as a PDF:
+
+[Open Week 1 PDF](pdfs/week01.pdf)
 
 ## Process Notes
 How did you make this?
