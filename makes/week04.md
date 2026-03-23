@@ -7,26 +7,33 @@ Tools Used: DALL·E (images)
 
 ## Comic Description (6 Panels)
 Panel 1
+
 ![](../assets/images/week04-1.png)
+
 During the celebration of Lunar New Year, An’s family gives him a red envelope with lucky money.
 
 Panel 2
+
 ![](../assets/images/week04-2.png)
 His family gives him a red envelope with lucky money.
 
 Panel 3
+
 ![](../assets/images/week04-3.png)
 He opens it and says what he's thinking.
 
 Panel 4
+
 ![](../assets/images/week04-4.png)
 His mom and dad pull him aside to talk to him.
 
 Panel 5
+
 ![](../assets/images/week04-5.png)
 His parents tell him to apologize to his family because of his behavior.
 
 Panel 6
+
 ![](../assets/images/week04-6.png)
 He apologizes sincerely to his family and expresses remorse.
 
