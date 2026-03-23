@@ -6,6 +6,7 @@ Title: I MADE THIS.
 Tools Used: ChatGPT (GIF generation), GIF export tools
 
 ## The Artifact (Description)
+![](../assets/images/week05-gif.gif)
 
 The GIF is a short looping animation built around the repeated phrase “I MADE THIS.” The
 design is minimal: a clean white card, grayscale background, repeated “REMIX / LOOP” texture,
