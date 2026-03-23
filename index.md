@@ -4,7 +4,6 @@ This site documents my critical making and reflections for DH101.
 
 ## Makes
 - [Week 01](makes/week01)
-- [Week 02](makes/week02)
 - [Week 03](makes/week03)
 - [Week 04](makes/week04)
 - [Week 05](makes/week05)
