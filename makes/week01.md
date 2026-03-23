@@ -1,9 +1,7 @@
 # Week 1 – Reverse Engineering
 
 ## The Artifact
-Here is my Week 1 artifact as a PDF:
-
-[Open Week 1 PDF](pdfs/week01.pdf)
+<iframe src="pdfs/week01.pdf" width="100%" height="900"></iframe>
 
 ## Process Notes
 How did you make this?
