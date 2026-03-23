@@ -2,13 +2,7 @@
 Student Name: Duc Tran
 
 ## Map
-<iframe
-  src="https://www.google.com/maps/d/edit?mid=1mCG5YlC5fx5tuuWEwJU5YEhwCjtds1M&usp=drive_link"
-  width="100%"
-  height="600"
-  style="border:0;"
-  loading="lazy">
-</iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1mCG5YlC5fx5tuuWEwJU5YEhwCjtds1M&ehbc=2E312F" width="640" height="480"></iframe>
 
 ## Research Documentation
 For this project, I made a digital map of AI infrastructure using three layers: corporate headquarters, data centers, and invisible labor sites tied to content moderation and data labeling. I picked these layers because they show how AI is not just “online” or floating in the cloud. It depends on real places, real resources, and real people. When I put the layers together, a clear pattern showed up. Decision making and profit are concentrated in a few tech hubs, while the physical infrastructure and the human work behind AI are spread across other regions.
