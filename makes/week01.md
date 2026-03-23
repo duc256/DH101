@@ -4,15 +4,10 @@
 <iframe src="pdfs/week01.pdf" width="100%" height="900"></iframe>
 
 ## Process Notes
-How did you make this?
-What tools did you use?
-What decisions did you make?
+Included in the PDF.
 
 ## Reflection
-Respond to this week’s reflection prompt in 200–300 words.
+Included in the PDF.
 
 ## Attribution & AI Use
-- Tools used:
-- AI prompts (summary):
-- What AI generated:
-- What you changed or decided:
+Included in the PDF.
