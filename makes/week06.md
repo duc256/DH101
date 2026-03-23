@@ -63,3 +63,16 @@ Voyant is more trustworthy for frequency and collocation data, but it cannot exp
 its own. What we gain from machine reading is speed, pattern recognition, and new ways to
 notice structure. What we lose is the human process of judgment if we rely on the tools too
 much. For me, the best approach is using both while still doing my own close reading.
+
+## Attribution & AI Use
+Text: Martin Luther King Jr., “I Have a Dream” (excerpt, public transcript, 1963)
+
+Tools: Voyant Tools; ChatGPT
+
+GPT Prompt: “Provide a rhetorical analysis of Martin Luther King Jr.’s I Have a Dream
+excerpt, focusing on repetition, tone, structure, and audience.”
+
+Limitations: Voyant showed repetition and collocations but could not explain their
+rhetorical or historical meaning. GPT explained tone and structure well, but it did not
+automatically show quantitative evidence or cite specific parts of the text unless
+prompted.
