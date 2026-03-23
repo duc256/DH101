@@ -1,19 +1,12 @@
 # Week 4 – Comic & Storytelling
+Student Name: Duc Tran
 
-## The Artifact
-Describe or embed your artifact here.
-Include images, links, or media as appropriate.
+Title: An’s lesson on the New Year Celebration.
 
-## Process Notes
-How did you make this?
-What tools did you use?
-What decisions did you make?
+Tools Used: DALL·E (images)
 
-## Reflection
-Respond to this week’s reflection prompt in 200–300 words.
+## Comic Description (6 Panels)
+Panel 1
 
-## Attribution & AI Use
-- Tools used:
-- AI prompts (summary):
-- What AI generated:
-- What you changed or decided:
+
+
