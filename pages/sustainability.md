@@ -7,7 +7,7 @@ Make 11 project made me think about AI in a more real way. Before, I mostly saw 
 For the make 11 project, I used sources on AI training emissions, per-prompt energy use, and data-center electricity demand. I mainly drew from Strubell, Ganesh, and McCallum, Google Cloud, and the International Energy Agency. I also used ideas from class, especially the idea that AI is not just digital but also material and extractive.
 
 # Personal Reflection
-This project honestly made me feel more conflicted about AI. I still use it a lot for school, especially for brainstorming, explaining hard ideas, and helping me get started when I am stuck. At the same time, I do not feel as comfortable thinking of it as a harmless tool anymore. It is useful, but that usefulness comes with environmental costs that are easy to ignore because they happen somewhere else.
+The project honestly made me feel more conflicted about AI. I still use it a lot for school, especially for brainstorming, explaining hard ideas, and helping me get started when I am stuck. At the same time, I do not feel as comfortable thinking of it as a harmless tool anymore. It is useful, but that usefulness comes with environmental costs that are easy to ignore because they happen somewhere else.
 
 I do not think I am going to stop using AI, and I do not want to pretend that I will. What I can do is use it more intentionally. I want to be more aware of when I actually need it and when I am just using it because it is faster or easier.
 
