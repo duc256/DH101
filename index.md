@@ -79,35 +79,36 @@
       <div class="tag-row"><span class="tag">future</span><span class="tag">surveillance</span></div>
     </article>
   </div>
-
-  <a class="button" href="makes/">Open the full gallery</a>
-</section>
-
 <section class="section">
-  <h2>How the site meets the final portfolio goals</h2>
+  <h2>What changed over the semester</h2>
 
-  <div class="grid">
-    <div class="card">
-      <h3>Reflections about AI</h3>
-      <p>The final reflection makes one argument across the whole semester and connects my makes to course readings.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>At first, I saw AI as a creative shortcut.</h3>
+      <p>
+        I was interested in how quickly AI could generate images, words, music, and ideas. The early projects helped me experiment faster, but they also made me question whether fast production always means meaningful production.
+      </p>
     </div>
 
-    <div class="card">
-      <h3>Making quality</h3>
-      <p>The gallery gathers 10+ makes and frames each one as an experiment, not just a finished product.</p>
+    <div class="timeline-item">
+      <h3>Then, I started noticing what AI hides.</h3>
+      <p>
+        The map, network, labor, and ecology projects pushed me to look behind the interface. AI started to feel less like a floating tool and more like a system connected to infrastructure, workers, energy, water, data, and power.
+      </p>
     </div>
 
-    <div class="card">
-      <h3>Transparency</h3>
-      <p>The AI-use page explains what AI produced, what I changed, and where human judgment mattered.</p>
-    </div>
-
-    <div class="card">
-      <h3>Accessibility + sustainability</h3>
-      <p>The site uses clear navigation, readable sections, alt-text reminders, and lightweight design choices.</p>
+    <div class="timeline-item">
+      <h3>By the end, I saw making as responsibility.</h3>
+      <p>
+        My final projects taught me that using AI is not only about producing something impressive. It is also about deciding what to trust, what to revise, what to disclose, and what consequences the work might have.
+      </p>
     </div>
   </div>
 </section>
+  <a class="button" href="makes/">Open the full gallery</a>
+</section>
+
+
 
 <p class="footer-note">
   Built by Duc Tran for DH101. Last revised for the final portfolio.
