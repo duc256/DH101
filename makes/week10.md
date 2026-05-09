@@ -1,8 +1,12 @@
 # Week 10 – Games & Play
 
 ## The Artifact
-Here is the link to the game: 
-https://drive.google.com/file/d/18gFS0SW1hxtqgDXKYLwlHO8ADMjcqJtv/view?usp=drive_link
+<iframe 
+  src="ai_prompt_game.html" 
+  width="100%" 
+  height="650"
+  title="AI Prompt Engineer Twine game">
+</iframe>
 
 This project is a short interactive story built in Twine titled The Prompt Engineer. The player interacts with an AI system by writing different types of prompts in order to generate a meaningful story. Each choice leads to a different type of response from the AI, shaping the experience and outcome.
 
