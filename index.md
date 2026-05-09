@@ -1,38 +1,116 @@
-# DH101 Portfolio
+<link rel="stylesheet" href="assets/css/style.css">
 
-This site documents my critical making and reflections for DH101.
+<div class="site-shell">
 
-## Makes
-- [Week 01](makes/week01)
-- [Week 03](makes/week03)
-- [Week 04](makes/week04)
-- [Week 05](makes/week05)
-- [Week 06](makes/week06)
-- [Week 07](makes/week07)
-- [Week 08](makes/week08)
-- [Week 09](makes/week09)
-- [Week 10](makes/week10)
-- [Week 11](makes/week11)
-- [Week 12](makes/week12)
-- [Week 13](makes/week13)
+<header class="hero">
+  <span class="eyebrow">DH101 Final Portfolio · Critical Making in the Age of AI</span>
+  <h1>Human Debug Mode</h1>
+  <p>
+    A portfolio about AI, authorship, hidden labor, ecological cost, and the human choices that still matter when machines help us make things.
+  </p>
+  <nav class="nav-pills" aria-label="Main navigation">
+    <a href="makes/">Makes Gallery</a>
+    <a href="pages/final-reflection">Final Reflection</a>
+    <a href="pages/how-i-use-ai">How I Use AI</a>
+    <a href="pages/accessibility">Accessibility</a>
+    <a href="pages/sustainability">Sustainability</a>
+    <a href="pages/about">About</a>
+  </nav>
+</header>
 
-## Reflections
-- [Week 01](reflections/week01)
-- [Week 02](reflections/week02)
-- [Week 03](reflections/week03)
-- [Week 04](reflections/week04)
-- [Week 05](reflections/week05)
-- [Week 06](reflections/week06)
-- [Week 07](reflections/week07)
-- [Week 08](reflections/week08)
-- [Week 09](reflections/week09)
-- [Week 10](reflections/week10)
-- [Week 11](reflections/week11)
-- [Week 12](reflections/week12)
-- [Week 13](reflections/week13)
+<section class="section">
+  <h2>My argument</h2>
 
-## Pages
-- [About](pages/about)
-- [Accessibility](pages/accessibility)
-- [How I use AI](pages/how-i-use-ai)
-- [Sustainability](pages/sustainability)
+  <p class="big-quote">
+    Being human in the age of AI is not about proving that humans are more efficient than machines. It is about staying responsible for meaning, context, care, and consequences when machines make production feel easy.
+  </p>
+
+  <p>
+    Across this semester, I made an AI selfie, a Tết comic, a looping GIF, a distant-reading experiment, a map of AI infrastructure, a network of my digital life, AI-generated music, a Twine game, an infographic about hidden labor, an environmental visualization, and a speculative future artifact. At first, I thought of AI mostly as a helpful creative shortcut. By the end, I started seeing AI as something larger: a system built from data, labor, electricity, water, infrastructure, and human judgment.
+  </p>
+
+  <p>
+    This website is organized like a set of case files. Each project asks one question: what does AI make visible, and what does it hide? My answer changes across the portfolio. Sometimes AI helps me experiment faster. Sometimes it flattens culture, identity, or style. Sometimes it reveals patterns. Sometimes it hides labor and environmental cost behind a smooth interface. The most important thing I learned is that making with AI is never just technical. It is ethical, cultural, and personal.
+  </p>
+
+  <a class="button" href="pages/final-reflection">Read the final reflection</a>
+</section>
+
+<section class="section">
+  <h2>Featured makes</h2>
+  <p>
+    These projects are not only assignments. Together, they show how my thinking moved from “AI helps me create” toward “AI changes the conditions of creation.”
+  </p>
+
+  <div class="make-grid">
+    <article class="make-card">
+      <h3><a href="makes/week03">AI Selfie</a></h3>
+      <p>Identity becomes a collaboration between my prompt, the model’s defaults, and my own edits.</p>
+      <div class="tag-row"><span class="tag">identity</span><span class="tag">authenticity</span></div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="makes/week04">Tết Comic</a></h3>
+      <p>A cultural story showed me that AI can generate images, but it does not automatically understand respect.</p>
+      <div class="tag-row"><span class="tag">storytelling</span><span class="tag">culture</span></div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="makes/week07">Mapping AI Worlds</a></h3>
+      <p>The “cloud” became physical: headquarters, data centers, labor sites, and missing information.</p>
+      <div class="tag-row"><span class="tag">infrastructure</span><span class="tag">power</span></div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="makes/week11">Hidden Workers Behind AI</a></h3>
+      <p>An infographic about data labeling, ghost work, and the people who make automation possible.</p>
+      <div class="tag-row"><span class="tag">labor</span><span class="tag">ethics</span></div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="makes/week12">AI & Ecology</a></h3>
+      <p>A visualization that compares one prompt to larger AI infrastructure and training emissions.</p>
+      <div class="tag-row"><span class="tag">ecology</span><span class="tag">scale</span></div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="makes/week13">Future Artifact</a></h3>
+      <p>A speculative eviction notice from 2046 asks what happens when housing becomes automated.</p>
+      <div class="tag-row"><span class="tag">future</span><span class="tag">surveillance</span></div>
+    </article>
+  </div>
+
+  <a class="button" href="makes/">Open the full gallery</a>
+</section>
+
+<section class="section">
+  <h2>How the site meets the final portfolio goals</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Reflections about AI</h3>
+      <p>The final reflection makes one argument across the whole semester and connects my makes to course readings.</p>
+    </div>
+
+    <div class="card">
+      <h3>Making quality</h3>
+      <p>The gallery gathers 10+ makes and frames each one as an experiment, not just a finished product.</p>
+    </div>
+
+    <div class="card">
+      <h3>Transparency</h3>
+      <p>The AI-use page explains what AI produced, what I changed, and where human judgment mattered.</p>
+    </div>
+
+    <div class="card">
+      <h3>Accessibility + sustainability</h3>
+      <p>The site uses clear navigation, readable sections, alt-text reminders, and lightweight design choices.</p>
+    </div>
+  </div>
+</section>
+
+<p class="footer-note">
+  Built by Duc Tran for DH101. Last revised for the final portfolio.
+</p>
+
+</div>
