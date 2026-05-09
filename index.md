@@ -1,6 +1,10 @@
 <style>
 .site-title,
-.site-header {
+.site-header,
+.project-name,
+.page-header,
+body > header:first-of-type,
+header[role="banner"] {
   display: none !important;
 }
 </style>
