@@ -1,377 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Human Debug Mode | DH101 Portfolio</title>
+<style>
+.site-title,
+.site-header,
+.project-name,
+.page-header,
+body > header:first-of-type,
+header[role="banner"] {
+  display: none !important;
+}
+</style>
 
-  <style>
-    :root {
-      --bg: #f7f4ee;
-      --dark: #0f1020;
-      --card: #ffffff;
-      --muted: #5f6370;
-      --accent: #7c3aed;
-      --accent-2: #06b6d4;
-      --accent-3: #f97316;
-      --shadow: 0 18px 45px rgba(0,0,0,.16);
-      --radius: 24px;
-    }
+<link rel="stylesheet" href="../assets/css/style.css">
 
-    * {
-      box-sizing: border-box;
-    }
+<div class="site-shell">
 
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
-      color: #171717;
-      background:
-        radial-gradient(circle at top left, rgba(124, 58, 237, .18), transparent 28rem),
-        radial-gradient(circle at bottom right, rgba(6, 182, 212, .18), transparent 26rem),
-        var(--bg);
-    }
+<header class="hero">
+  <span class="eyebrow">Makes Gallery</span>
+  <h1>Case Files of Making</h1>
+  <p>
+    Each make is a small experiment in human-AI collaboration. Together, these projects show how my thinking changed from seeing AI as a creative shortcut to seeing it as a system connected to culture, labor, infrastructure, ecology, and responsibility.
+  </p>
 
-    a {
-      color: #4f46e5;
-      font-weight: 700;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 3px;
-    }
+  <nav class="nav-pills" aria-label="Gallery navigation">
+    <a href="../">Home</a>
+    <a href="../pages/final-reflection">Final Reflection</a>
+    <a href="../pages/how-i-use-ai">How I Use AI</a>
+    <a href="../pages/accessibility">Accessibility</a>
+    <a href="../pages/sustainability">Sustainability</a>
+    <a href="../pages/about">About</a>
+  </nav>
+</header>
 
-    .site-shell {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-    }
+<section class="section">
+  <h2>Full Gallery</h2>
+  <p>
+    I organized my semester projects as “case files” because each one helped me investigate a different question about AI, humans, and making.
+  </p>
 
-    .hero {
-      margin: 28px auto 24px;
-      padding: 46px;
-      color: white;
-      border-radius: 32px;
-      background:
-        linear-gradient(135deg, rgba(15,16,32,.96), rgba(49,46,129,.92)),
-        radial-gradient(circle at 80% 20%, rgba(249,115,22,.8), transparent 16rem);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      position: relative;
-    }
+  <div class="make-grid">
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      right: -120px;
-      top: -120px;
-      width: 330px;
-      height: 330px;
-      border-radius: 999px;
-      background: linear-gradient(135deg, rgba(6,182,212,.45), rgba(249,115,22,.35));
-    }
-
-    .hero > * {
-      position: relative;
-      z-index: 1;
-    }
-
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 18px;
-      padding: 7px 12px;
-      border: 1px solid rgba(255,255,255,.22);
-      border-radius: 999px;
-      background: rgba(255,255,255,.1);
-      font-size: .86rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    .hero h1 {
-      max-width: 850px;
-      margin: 0;
-      font-size: clamp(2.4rem, 7vw, 5.7rem);
-      line-height: .92;
-      letter-spacing: -.065em;
-    }
-
-    .hero p {
-      max-width: 760px;
-      font-size: 1.14rem;
-      color: rgba(255,255,255,.88);
-    }
-
-    .nav-pills {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 26px;
-    }
-
-    .nav-pills a {
-      color: white;
-      text-decoration: none;
-      border: 1px solid rgba(255,255,255,.22);
-      border-radius: 999px;
-      padding: 10px 14px;
-      background: rgba(255,255,255,.11);
-    }
-
-    .nav-pills a:hover,
-    .button:hover {
-      transform: translateY(-2px);
-      background: rgba(255,255,255,.2);
-    }
-
-    .section {
-      margin: 28px 0;
-      padding: 30px;
-      background: rgba(255,255,255,.82);
-      border: 1px solid rgba(17,24,39,.08);
-      border-radius: var(--radius);
-      box-shadow: 0 10px 30px rgba(15,16,32,.08);
-    }
-
-    .section h2 {
-      margin-top: 0;
-      font-size: clamp(1.55rem, 3vw, 2.35rem);
-      letter-spacing: -.035em;
-    }
-
-    .big-quote {
-      padding: 22px;
-      border-left: 6px solid var(--accent);
-      background: #f5f3ff;
-      border-radius: 16px;
-      font-size: 1.12rem;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 11px 16px;
-      color: white;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      border-radius: 999px;
-      text-decoration: none;
-      box-shadow: var(--shadow);
-    }
-
-    .make-grid {
-      display: grid;
-      gap: 18px;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    }
-
-    .make-card {
-      min-height: 220px;
-      padding: 22px;
-      border: 1px solid rgba(17,24,39,.08);
-      border-radius: 22px;
-      background: white;
-      box-shadow: 0 8px 26px rgba(15,16,32,.07);
-    }
-
-    .make-card::before {
-      content: "";
-      display: block;
-      height: 6px;
-      width: 84px;
-      margin-bottom: 18px;
-      border-radius: 999px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3));
-    }
-
-    .make-card h3 {
-      margin: 0 0 8px;
-      line-height: 1.2;
-    }
-
-    .make-card p {
-      color: var(--muted);
-    }
-
-    .tag-row {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin: 14px 0;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 4px 9px;
-      border-radius: 999px;
-      font-size: .78rem;
-      font-weight: 700;
-      color: #312e81;
-      background: #ede9fe;
-    }
-
-    .timeline {
-      display: grid;
-      gap: 14px;
-    }
-
-    .timeline-item {
-      padding: 18px;
-      border-left: 5px solid var(--accent);
-      border-radius: 16px;
-      background: #fff;
-    }
-
-    .footer-note {
-      margin: 40px 0 24px;
-      color: var(--muted);
-      text-align: center;
-    }
-
-    @media (max-width: 680px) {
-      .hero,
-      .section {
-        padding: 24px;
-      }
-
-      .hero h1 {
-        font-size: 3rem;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <div class="site-shell">
-
-    <header class="hero">
-      <span class="eyebrow">DH101 Final Portfolio · Critical Making in the Age of AI</span>
-      <h1>Human Debug Mode</h1>
+    <article class="make-card">
+      <h3><a href="week01">Week 1 — Reverse Engineering</a></h3>
       <p>
-        A portfolio about AI, authorship, hidden labor, ecological cost, and the human choices that still matter when machines help us make things.
+        Photogrammar showed me that digital archives are not neutral windows into history. They are shaped by data, metadata, categories, and design choices.
       </p>
-
-      <nav class="nav-pills" aria-label="Main navigation">
-        <a href="makes/">Makes Gallery</a>
-        <a href="pages/final-reflection">Final Reflection</a>
-        <a href="pages/how-i-use-ai">How I Use AI</a>
-        <a href="pages/accessibility">Accessibility</a>
-        <a href="pages/sustainability">Sustainability</a>
-        <a href="pages/about">About</a>
-      </nav>
-    </header>
-
-    <section class="section">
-      <h2>My argument</h2>
-
-      <p class="big-quote">
-        Being human in the age of AI is not about proving that humans are more efficient than machines. It is about staying responsible for meaning, context, care, and consequences when machines make production feel easy.
-      </p>
-
-      <p>
-        Across this semester, I made an AI selfie, a Tết comic, a looping GIF, a distant-reading experiment, a map of AI infrastructure, a network of my digital life, AI-generated music, a Twine game, an infographic about hidden labor, an environmental visualization, and a speculative future artifact. At first, I thought of AI mostly as a helpful creative shortcut. By the end, I started seeing AI as something larger: a system built from data, labor, electricity, water, infrastructure, and human judgment.
-      </p>
-
-      <p>
-        This website is organized like a set of case files. Each project asks one question: what does AI make visible, and what does it hide? My answer changes across the portfolio. Sometimes AI helps me experiment faster. Sometimes it flattens culture, identity, or style. Sometimes it reveals patterns. Sometimes it hides labor and environmental cost behind a smooth interface. The most important thing I learned is that making with AI is never just technical. It is ethical, cultural, and personal.
-      </p>
-
-      <a class="button" href="pages/final-reflection">Read the final reflection</a>
-    </section>
-
-    <section class="section">
-      <h2>Featured makes</h2>
-      <p>
-        These projects are not only assignments. Together, they show how my thinking moved from “AI helps me create” toward “AI changes the conditions of creation.”
-      </p>
-
-      <div class="make-grid">
-        <article class="make-card">
-          <h3><a href="makes/week03">AI Selfie</a></h3>
-          <p>Identity becomes a collaboration between my prompt, the model’s defaults, and my own edits.</p>
-          <div class="tag-row">
-            <span class="tag">identity</span>
-            <span class="tag">authenticity</span>
-          </div>
-        </article>
-
-        <article class="make-card">
-          <h3><a href="makes/week04">Tết Comic</a></h3>
-          <p>A cultural story showed me that AI can generate images, but it does not automatically understand respect.</p>
-          <div class="tag-row">
-            <span class="tag">storytelling</span>
-            <span class="tag">culture</span>
-          </div>
-        </article>
-
-        <article class="make-card">
-          <h3><a href="makes/week07">Mapping AI Worlds</a></h3>
-          <p>The “cloud” became physical: headquarters, data centers, labor sites, and missing information.</p>
-          <div class="tag-row">
-            <span class="tag">infrastructure</span>
-            <span class="tag">power</span>
-          </div>
-        </article>
-
-        <article class="make-card">
-          <h3><a href="makes/week11">Hidden Workers Behind AI</a></h3>
-          <p>An infographic about data labeling, ghost work, and the people who make automation possible.</p>
-          <div class="tag-row">
-            <span class="tag">labor</span>
-            <span class="tag">ethics</span>
-          </div>
-        </article>
-
-        <article class="make-card">
-          <h3><a href="makes/week12">AI & Ecology</a></h3>
-          <p>A visualization that compares one prompt to larger AI infrastructure and training emissions.</p>
-          <div class="tag-row">
-            <span class="tag">ecology</span>
-            <span class="tag">scale</span>
-          </div>
-        </article>
-
-        <article class="make-card">
-          <h3><a href="makes/week13">Future Artifact</a></h3>
-          <p>A speculative eviction notice from 2046 asks what happens when housing becomes automated.</p>
-          <div class="tag-row">
-            <span class="tag">future</span>
-            <span class="tag">surveillance</span>
-          </div>
-        </article>
+      <div class="tag-row">
+        <span class="tag">archive</span>
+        <span class="tag">metadata</span>
       </div>
+    </article>
 
-      <a class="button" href="makes/">Open the full gallery</a>
-    </section>
-
-    <section class="section">
-      <h2>What changed over the semester</h2>
-
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>At first, I saw AI as a creative shortcut.</h3>
-          <p>
-            I was interested in how quickly AI could generate images, words, music, and ideas. The early projects helped me experiment faster, but they also made me question whether fast production always means meaningful production.
-          </p>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Then, I started noticing what AI hides.</h3>
-          <p>
-            The map, network, labor, and ecology projects pushed me to look behind the interface. AI started to feel less like a floating tool and more like a system connected to infrastructure, workers, energy, water, data, and power.
-          </p>
-        </div>
-
-        <div class="timeline-item">
-          <h3>By the end, I saw making as responsibility.</h3>
-          <p>
-            My final projects taught me that using AI is not only about producing something impressive. It is also about deciding what to trust, what to revise, what to disclose, and what consequences the work might have.
-          </p>
-        </div>
+    <article class="make-card">
+      <h3><a href="week03">Week 3 — AI Selfie</a></h3>
+      <p>
+        I tested how AI represents identity and how human editing can reveal the gap between a person and a generated image.
+      </p>
+      <div class="tag-row">
+        <span class="tag">identity</span>
+        <span class="tag">representation</span>
       </div>
-    </section>
+    </article>
 
-    <p class="footer-note">
-      Built by Duc Tran for DH101. Last revised for the final portfolio.
-    </p>
+    <article class="make-card">
+      <h3><a href="week04">Week 4 — Comic</a></h3>
+      <p>
+        A comic about Tết became a lesson in cultural context, emotion, and why AI-generated images still need human direction.
+      </p>
+      <div class="tag-row">
+        <span class="tag">storytelling</span>
+        <span class="tag">culture</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week05">Week 5 — GIF</a></h3>
+      <p>
+        The phrase “I MADE THIS” loops until authorship starts to feel unstable, ironic, and remixable.
+      </p>
+      <div class="tag-row">
+        <span class="tag">remix</span>
+        <span class="tag">authorship</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week06">Week 6 — Distant Reading</a></h3>
+      <p>
+        Voyant and GPT helped me see textual patterns, but interpretation still required close human reading and judgment.
+      </p>
+      <div class="tag-row">
+        <span class="tag">text</span>
+        <span class="tag">interpretation</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week07">Week 7 — Mapping AI Worlds</a></h3>
+      <p>
+        A map of AI infrastructure made the “cloud” feel physical, political, and connected to real places.
+      </p>
+      <div class="tag-row">
+        <span class="tag">mapping</span>
+        <span class="tag">infrastructure</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week08">Week 8 — Network of Knowledge and Power</a></h3>
+      <p>
+        My digital life became a network of apps, companies, devices, services, and data relationships.
+      </p>
+      <div class="tag-row">
+        <span class="tag">network</span>
+        <span class="tag">data</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week09">Week 9 — Bots and Generators</a></h3>
+      <p>
+        AI music generation showed me that abundance is not the same as taste. Curation became the real creative work.
+      </p>
+      <div class="tag-row">
+        <span class="tag">music</span>
+        <span class="tag">curation</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week10">Week 10 — Game</a></h3>
+      <p>
+        My Twine game made players experience the limits of prompting instead of only reading about them.
+      </p>
+      <div class="tag-row">
+        <span class="tag">game</span>
+        <span class="tag">agency</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week11">Week 11 — AI and Labor</a></h3>
+      <p>
+        An infographic about data labeling and ghost work made hidden human labor behind AI visible.
+      </p>
+      <div class="tag-row">
+        <span class="tag">labor</span>
+        <span class="tag">ghost work</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week12">Week 12 — AI and Ecology</a></h3>
+      <p>
+        A visualization about AI energy and carbon impact helped me think about the material cost of digital tools.
+      </p>
+      <div class="tag-row">
+        <span class="tag">ecology</span>
+        <span class="tag">carbon</span>
+      </div>
+    </article>
+
+    <article class="make-card">
+      <h3><a href="week13">Week 13 — Futures of AI</a></h3>
+      <p>
+        A speculative eviction notice imagined how automated systems could shape housing, surveillance, and power.
+      </p>
+      <div class="tag-row">
+        <span class="tag">future</span>
+        <span class="tag">surveillance</span>
+      </div>
+    </article>
 
   </div>
-</body>
-</html>
+</section>
+
+<section class="section">
+  <h2>What this gallery shows</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>AI can help me make faster.</h3>
+      <p>
+        Early projects helped me test images, text, and visual styles quickly.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>AI can also hide important systems.</h3>
+      <p>
+        The mapping, network, labor, and ecology projects made me look behind the interface.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>Human judgment still matters.</h3>
+      <p>
+        Across the semester, I learned that making with AI still requires selection, correction, context, ethics, and responsibility.
+      </p>
+    </div>
+  </div>
+</section>
+
+</div>
