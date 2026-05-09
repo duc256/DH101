@@ -1,3 +1,13 @@
+<style>
+.site-title,
+.site-header {
+  display: none !important;
+}
+</style>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<div class="site-shell">
 <link rel="stylesheet" href="assets/css/style.css">
 
 <div class="site-shell">
