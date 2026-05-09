@@ -3,6 +3,8 @@
 ## Environmental Visualization
 Title: From One Prompt to One Training Run: The Carbon Scale of AI
 
+![](../assets/images/week12-01.png)
+
 This visualization compares the carbon scale of AI across very different levels, from a single prompt to a full training run. I used a log-scale bar chart to show how AI can seem small at the level of one user interaction but become environmentally serious at infrastructure scale.
 
 ## Data File
