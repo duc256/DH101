@@ -3,6 +3,7 @@
 ## The Zine/Infographic
 Title: The Hidden Workers behind AI
 
+![](../assets/images/week11-01.png)
 
 ## Research Notes
 For this project, I focused on data labeling as a hidden form of labor behind AI systems. Data labeling includes tasks such as tagging images, sorting text, transcribing audio, and organizing information so that machine learning systems can recognize patterns and make predictions. I used Marie Hicks’s article Hacking the Cis-tem: Transgender Citizens and the Early Digital State as a key source because it helped me think about how technological systems are not neutral. Hicks shows that systems are built with assumptions and power structures inside them, and that they can make some forms of labor and some groups of people invisible while presenting the system as normal or objective. That idea helped me connect hidden AI labor to a broader history of exclusion and inequality in technology.
